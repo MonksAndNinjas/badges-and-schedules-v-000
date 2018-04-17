@@ -18,5 +18,7 @@ def assign_rooms(attendees)
   attendees.each do |name|
     welcome_message = "Hello, #{name}! You'll be assigned to room #{i}!"
     i += 1
+    room_assignments << welcome_message
   end
+  room_assignments
 end
