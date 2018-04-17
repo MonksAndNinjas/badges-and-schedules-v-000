@@ -9,4 +9,5 @@ def batch_badge_creator(attendees)
     message = "Hello my name is #{name}."
     badges << message
   end
+  badges
 end
